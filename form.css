@@ -1,0 +1,60 @@
+body{
+      
+    background: white; 
+    
+color: rgb(2, 2, 2);
+
+}
+
+.container{
+    margin: auto;
+    
+    padding: 34px;
+    max-width: 60%;
+    }
+   .container h1 {
+        text-align: center;
+        font-size: 50px;
+    }
+    .container p {
+        text-align: center;
+        font-size: 40px;
+    }
+    .text{
+        
+       text-align: center;
+        display: flex;
+        color: black;
+        align-items: center;
+        justify-self: center;
+        flex-direction: column;
+        
+      }
+    .btn{
+        color: rgb(11, 11, 11); 
+        font-size: 20px;
+        cursor:pointer;
+    }
+    form{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+       opacity: 2;
+    }
+    .submitmsg{
+        color: green;
+    }
+    .fp{
+      background-size: cover;
+      background-repeat: no-repeat;
+     opacity: 0.3;
+     margin-top: -70%;
+     margin-left: -30%;
+    }
+      
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: rgb(13, 12, 12);
+        opacity: 1; /* Firefox */
+        font-weight: 900;
+      }
